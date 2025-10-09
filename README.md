@@ -9,9 +9,7 @@ The tool reads a calendar file, checks each event for compliance, reports all er
 # KEY FEATURES 🔑
 - 🧾 Reads .ics calendar files and validates their structure (BEGIN:VCALENDAR ... END:VCALENDAR) and event components (BEGIN:VEVENT ... END:VEVENT).
 
-- Checks for required iCalendar properties:
-
-UID, DTSTAMP, DTSTART, METHOD, STATUS, and ATTENDEE.
+- Checks for required iCalendar properties: UID, DTSTAMP, DTSTART, METHOD, STATUS, and ATTENDEE.
 
 - Includes full Jasmine test coverage for edge cases (missing fields, bad METHOD, invalid timestamps, malformed ATTENDEE).
 
